@@ -1,0 +1,79 @@
+body {
+    background-color: #121212;
+    color: #fff;
+  }
+
+  .container {
+    max-width: 500px;
+    padding: 30px;
+    background-color: #1f1f1f;
+    border-radius: 10px;
+    margin-top: 50px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  h1, h2, h3 {
+    color: #fff;
+  }
+
+  .form-control {
+    border-radius: 0;
+  }
+
+  .btn-primary {
+    background-color: #6c757d;
+    border-color: #6c757d;
+    border-radius: 50px; 
+    width: 200px;
+    margin: 10px auto; 
+    display: block;
+  }
+
+  .btn-primary:hover {
+    background-color: #5a6268;
+    border-color: #545b62;
+  }
+
+  .list-group-item {
+    cursor: pointer;
+    background-color: #282828;
+    color: #fff;
+    border-color: #282828;
+  }
+
+  .list-group-item:hover {
+    background-color: #383838;
+  }
+
+  .progress {
+    height: 10px;
+    margin-bottom: 20px;
+    display: none;
+  }
+
+  #progressBarInner {
+    transition: width 0.3s ease-in-out;
+  }
+
+  #downloadStatus {
+    margin-top: 20px;
+    color: #fff;
+    display: none;
+  }
+
+  #downloadedList .list-group-item {
+    background-color: #282828;
+    color: #fff;
+    border-color: #282828;
+  }
+
+  #downloadedList .list-group-item:hover {
+    background-color: #383838;
+  }
+
+  #selectedContent {
+    margin-top: 20px;
+    display: none;
+  }
